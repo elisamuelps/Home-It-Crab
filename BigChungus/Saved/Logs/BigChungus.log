@@ -575,3 +575,424 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.25-19.22.07:864][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
 [2019.01.25-19.22.11:811][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.01.25-19.23.48:746][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.45.07:322][903]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-19.45.07:503][903]LogSlate: Took 0.049553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-19.45.38:542][591]Running U:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/BigChungus.uproject" -game -rocket -progress
+[2019.01.25-19.45.38:875][591]C:\Users\elisa\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml(4): warning: The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'bAllowLTCG, bPrintToolChainTimingInfo, bUseSharedPCHs, bVerboseDistccOutput, bUseXGEController, JsonExportFile, bEnableThreadSanitizer, bAdaptiveUnityDisablesOptimizations, bDebugBuildsActuallyUseDebugCRT, bAllowSNDBS, bEditorDependsOnShaderCompileWorker, bAllowDistcc, bAdaptiveUnityDisablesPCH, bAllowDistccLocalFallback, bWriteSolutionOptionFile, bGeneratedSYMFile, bBreakBuildOnLicenseViolation, bIgnoreJunk, bStopXGECompilationAfterErrors, bEnableAddressSanitizer, bForcePrecompiledHeaderForGameModules, bEnableUndefinedBehaviorSanitizer, bUsePDBFiles, bShadowVariableErrors, bStripSymbolsOnIOS, bUseCheckedPhysXLibraries, bAdaptiveUnityCreatesDedicatedPCH, bUsePCHFiles, bUseUnityBuild, bSupportEditAndContinue, bLogDetailedActionStats, bStressTestUnity, bUseFastSemanticsRenderContexts, bShowXGEMonitor, bForceUnityBuild, bUseIncrementalLinking, NumIncludedBytesPerUnityCPP, bXGENoWatchdogThread, bUsePerFileIntellisense, bFlushBuildDirOnRemoteMac, bDisableDebugInfo, bUseActionHistory, bAddFastPDBToProjects, Log....
+[2019.01.25-19.45.39:077][591]Discovering modules, targets and source code for project...
+[2019.01.25-19.45.51:456][591]Binding IntelliSense data...
+[2019.01.25-19.45.53:987][591]Binding IntelliSense data... 100%
+[2019.01.25-19.45.53:987][591]Writing project files...
+[2019.01.25-19.45.57:007][591]Writing project files... 100%
+[2019.01.25-19.45.57:124][591]LogHotReload: Recompiling module BigChungus...
+[2019.01.25-19.45.57:129][591]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.25-19.45.57:377][591]Candidate modules for hot reload:
+[2019.01.25-19.45.57:377][591]  BigChungus
+[2019.01.25-19.45.57:378][591]Launching UnrealBuildTool... [U:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BigChungus,5622 Win64 Development -TargetType=Editor -Project="C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/BigChungus.uproject" -canskiplink -nosharedpch "C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/BigChungus.uproject" ]
+[2019.01.25-19.46.37:301][591]C:\Users\elisa\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml(4): warning: The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'MinGameModuleSourceFilesForUnityBuild, bUseXGEController, bBreakBuildOnLicenseViolation, bUseActionHistory, bPGOOptimize, bEnableAddressSanitizer, bEnableThreadSanitizer, bUseShippingPhysXLibraries, bShowXGEMonitor, bAllowDistccLocalFallback, bUseMallocProfiler, bUseUBTMakefiles, bAdaptiveUnityDisablesPCH, bStressTestUnity, DistccExecutablesPath, bUseInlining, bUseFastPDBLinking, bTestIncludeDependencyResolveCache, bIgnoreOutdatedImportLibraries, bAllowASLRInShipping, LogFileName, bEditorDependsOnShaderCompileWorker, bUseCheckedPhysXLibraries, bGeneratedSYMFile, bDisableDebugInfoForGeneratedCode, bAllowParallelExecutor, bUseIncludeDependencyResolveCache, DMUCSCoordinator, bAdaptiveUnityCreatesDedicatedPCH, bStopXGECompilationAfterErrors, bAdaptiveUnityEnablesEditAndContinue, bUsePDBFiles, bAllowSNDBS, bEnableUndefinedBehaviorSanitizer, bUsePerFileIntellisense, bAdaptiveUnityDisablesOptimizations, bUseAdaptiveUnityBuild, bFlushBuildDirOnRemoteMac, bPrintPerformanceInfo, bAddFastPDBToProjects, bUndefinedIde....
+Performing full C++ include scan (hot reloading a new target)
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019).
+Creating makefile for hot reloading BigChungusEditor (no existing makefile)
+Compiling game modules for hot reload
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Parsing headers for BigChungusEditor
+  Running UnrealHeaderTool "C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\BigChungus.uproject" "C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\BigChungusEditor\Development\BigChungusEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BigChungusEditor in 9.2736143 seconds
+Distributing 7 actions to XGE
+--------------------Build System Warning---------------------------------------
+Temporary license has expired:
+    Your Agent's temporary license has expired. IncrediBuild will allow you to utilize up to 16 cores on your local machine.
+     To unleash IncrediBuild's capabilities to utilize idle cores in your network in order to achieve increased performance, please contact sales@incredibuild.com
+
+-------------------------------------------------------------------------------
+--------------------Project: Default-------------------------------------------
+BigChungus.cpp (0:01.62 at +0:00)
+PCLaunch.rc (0:00.12 at +0:01)
+BigChungus.init.gen.cpp (0:02.31 at +0:00)
+CrabCharacter.cpp (0:04.54 at +0:00)
+CrabCharacter.gen.cpp (0:04.68 at +0:00)
+UE4Editor-BigChungus-5622.lib (0:00.06 at +0:04)
+   Creating library C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.lib and object C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.exp
+UE4Editor-BigChungus-5622.dll (0:00.46 at +0:04)
+   Creating library C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.suppressed.lib and object C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.suppressed.exp
+---------------------- Done ----------------------
+
+    Rebuild All: 1 succeeded, 0 failed, 0 skipped
+
+1 build system warning(s):
+   - Temporary license has expired
+
+Total build time: 39.75 seconds (XGE executor: 5.42 seconds)
+
+[2019.01.25-19.46.37:410][591]CompilerResultsLog: New page: Compilation - 25 Jan 2019 19:46:37
+[2019.01.25-19.46.37:421][591]CompilerResultsLog: C:\Users\elisa\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml(4): warning: The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'MinGameModuleSourceFilesForUnityBuild, bUseXGEController, bBreakBuildOnLicenseViolation, bUseActionHistory, bPGOOptimize, bEnableAddressSanitizer, bEnableThreadSanitizer, bUseShippingPhysXLibraries, bShowXGEMonitor, bAllowDistccLocalFallback, bUseMallocProfiler, bUseUBTMakefiles, bAdaptiveUnityDisablesPCH, bStressTestUnity, DistccExecutablesPath, bUseInlining, bUseFastPDBLinking, bTestIncludeDependencyResolveCache, bIgnoreOutdatedImportLibraries, bAllowASLRInShipping, LogFileName, bEditorDependsOnShaderCompileWorker, bUseCheckedPhysXLibraries, bGeneratedSYMFile, bDisableDebugInfoForGeneratedCode, bAllowParallelExecutor, bUseIncludeDependencyResolveCache, DMUCSCoordinator, bAdaptiveUnityCreatesDedicatedPCH, bStopXGECompilationAfterErrors, bAdaptiveUnityEnablesEditAndContinue, bUsePDBFiles, bAllowSNDBS, bEnableUndefinedBehaviorSanitizer, bUsePerFileIntellisense, bAdaptiveUnityDisablesOptimizations, bUseAdaptiveUnityBuild, bFlushBuildDirOnRemoteMac, bPrintPerformanceInfo, bAddFastPDBToProjects, bUndefinedIde....
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019).
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Creating makefile for hot reloading BigChungusEditor (no existing makefile)
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Parsing headers for BigChungusEditor
+[2019.01.25-19.46.37:422][591]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\BigChungus.uproject" "C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\BigChungusEditor\Development\BigChungusEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Reflection code generated for BigChungusEditor in 9.2736143 seconds
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Distributing 7 actions to XGE
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.01.25-19.46.37:422][591]CompilerResultsLog: Temporary license has expired:
+[2019.01.25-19.46.37:422][591]CompilerResultsLog:     Your Agent's temporary license has expired. IncrediBuild will allow you to utilize up to 16 cores on your local machine.
+[2019.01.25-19.46.37:422][591]CompilerResultsLog:      To unleash IncrediBuild's capabilities to utilize idle cores in your network in order to achieve increased performance, please contact sales@incredibuild.com
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: 
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: BigChungus.cpp (0:01.62 at +0:00)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: PCLaunch.rc (0:00.12 at +0:01)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: BigChungus.init.gen.cpp (0:02.31 at +0:00)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: CrabCharacter.cpp (0:04.54 at +0:00)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: CrabCharacter.gen.cpp (0:04.68 at +0:00)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: UE4Editor-BigChungus-5622.lib (0:00.06 at +0:04)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog:    Creating library C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.lib and object C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.exp
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: UE4Editor-BigChungus-5622.dll (0:00.46 at +0:04)
+[2019.01.25-19.46.37:465][591]CompilerResultsLog:    Creating library C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.suppressed.lib and object C:\Users\elisa\Documents\Re-Invention_Repo\hacksmiths2019\BigChungus\Intermediate\Build\Win64\UE4Editor\Development\BigChungus\UE4Editor-BigChungus-5622.suppressed.exp
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: 
+[2019.01.25-19.46.37:465][591]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: 
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: 1 build system warning(s):
+[2019.01.25-19.46.37:465][591]CompilerResultsLog:    - Temporary license has expired
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: 
+[2019.01.25-19.46.37:465][591]CompilerResultsLog: Total build time: 39.75 seconds (XGE executor: 5.42 seconds)
+[2019.01.25-19.46.37:474][591]LogMainFrame: MainFrame: Module compiling took 40.344 seconds
+[2019.01.25-19.46.37:492][591]Reloading module BigChungus after successful compile.
+[2019.01.25-19.46.37:514][591]LogClass: Could not find existing package /Script/BigChungus for HotReload of class CrabCharacter, assuming a new package.
+[2019.01.25-19.46.37:529][591]LogContentBrowser: Native class hierarchy updated for 'BigChungus' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2019.01.25-19.46.37:593][591]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2653 classes and 625 folders.
+[2019.01.25-19.46.37:747][591]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.25-19.46.56:797][604]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Source/BigChungus/Public/CrabCharacter.h'
+[2019.01.25-19.46.56:858][604]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Source/BigChungus/Private/CrabCharacter.cpp'
+[2019.01.25-19.47.28:230][699]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.243 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.01.25-19.47.59:314][856]LogSavePackage: Moving 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Saved/FirstPersonExampleMapB4882E5A49CD65B8FC1374B8B047F60B.tmp' to 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.01.25-19.48.00:270][856]LogSavePackage: Moving 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Saved/FirstPersonExampleMap_BuiltData546505B949FE5F28770085A7475B6D10.tmp' to 'C:/Users/elisa/Documents/Re-Invention_Repo/hacksmiths2019/BigChungus/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.01.25-19.48.04:208][994]LogSlate: Window 'BigChungus - Unreal Editor' being destroyed
+[2019.01.25-19.48.04:220][994]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-19.48.04:740][995]Cmd: QUIT_EDITOR
+[2019.01.25-19.48.05:066][995]LogExit: Preparing to exit.
+[2019.01.25-19.48.06:094][995]LogExit: Editor shut down
+[2019.01.25-19.48.06:095][995]LogExit: Transaction tracking system shut down
+[2019.01.25-19.48.07:562][995]LogExit: Object subsystem successfully closed.
+[2019.01.25-19.48.07:699][995]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.25-19.48.07:748][995]LogD3D11RHI: Shutdown
+[2019.01.25-19.48.07:748][995]LogD3D11RHI: CleanupD3DDevice
+[2019.01.25-19.48.07:792][995]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.25-19.48.08:781][995]LogModuleManager: Shutting down and abandoning module BigChungus (624)
+[2019.01.25-19.48.08:781][995]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
+[2019.01.25-19.48.08:781][995]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
+[2019.01.25-19.48.08:788][995]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
+[2019.01.25-19.48.08:810][995]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
+[2019.01.25-19.48.08:810][995]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
+[2019.01.25-19.48.08:810][995]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
+[2019.01.25-19.48.08:820][995]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.25-19.48.08:827][995]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.25-19.48.08:838][995]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.25-19.48.08:862][995]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.25-19.48.08:867][995]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.25-19.48.08:879][995]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.25-19.48.08:887][995]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.25-19.48.08:887][995]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.25-19.48.08:887][995]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.25-19.48.08:895][995]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.25-19.48.08:919][995]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.25-19.48.08:919][995]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.25-19.48.08:943][995]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.25-19.48.08:943][995]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.25-19.48.08:943][995]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.25-19.48.08:943][995]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.25-19.48.08:943][995]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.25-19.48.08:946][995]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.25-19.48.08:964][995]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.25-19.48.08:976][995]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.25-19.48.09:000][995]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.25-19.48.09:014][995]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.25-19.48.09:020][995]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.25-19.48.09:068][995]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.25-19.48.10:173][995]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.25-19.48.10:181][995]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.25-19.48.10:190][995]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.25-19.48.10:209][995]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.25-19.48.10:219][995]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.25-19.48.10:219][995]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.25-19.48.10:230][995]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.25-19.48.10:237][995]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.25-19.48.10:237][995]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.25-19.48.10:251][995]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.25-19.48.10:251][995]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.25-19.48.10:251][995]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.25-19.48.10:251][995]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.25-19.48.10:260][995]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.25-19.48.10:267][995]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.25-19.48.10:274][995]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.25-19.48.10:279][995]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.25-19.48.10:289][995]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.25-19.48.10:355][995]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.25-19.48.10:374][995]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.25-19.48.10:382][995]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.25-19.48.10:397][995]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.25-19.48.10:397][995]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.25-19.48.10:406][995]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.25-19.48.10:406][995]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.25-19.48.10:423][995]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.25-19.48.10:423][995]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.25-19.48.10:423][995]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.25-19.48.10:440][995]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.25-19.48.10:457][995]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.25-19.48.10:458][995]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.25-19.48.10:458][995]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.25-19.48.10:465][995]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.25-19.48.10:466][995]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.25-19.48.10:466][995]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.25-19.48.10:504][995]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.25-19.48.10:504][995]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.25-19.48.10:504][995]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.25-19.48.10:504][995]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.25-19.48.10:510][995]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.25-19.48.10:526][995]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.25-19.48.10:543][995]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.25-19.48.10:543][995]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.25-19.48.10:543][995]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.25-19.48.10:543][995]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.25-19.48.10:545][995]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.25-19.48.10:592][995]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.25-19.48.10:600][995]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.25-19.48.10:600][995]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.25-19.48.10:600][995]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.25-19.48.10:613][995]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.25-19.48.10:613][995]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.25-19.48.10:613][995]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.25-19.48.10:613][995]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.25-19.48.10:613][995]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.25-19.48.10:617][995]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.25-19.48.10:617][995]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.25-19.48.10:617][995]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.25-19.48.10:617][995]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.25-19.48.10:625][995]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.25-19.48.10:638][995]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.25-19.48.10:638][995]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.25-19.48.10:638][995]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.25-19.48.10:640][995]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.25-19.48.10:640][995]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.25-19.48.10:640][995]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.25-19.48.10:640][995]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.25-19.48.10:649][995]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.25-19.48.10:661][995]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.25-19.48.10:661][995]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.25-19.48.10:673][995]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.25-19.48.10:682][995]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.25-19.48.10:682][995]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.25-19.48.10:690][995]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.25-19.48.10:700][995]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.25-19.48.10:700][995]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.25-19.48.10:700][995]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.25-19.48.10:700][995]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.25-19.48.10:700][995]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.25-19.48.10:710][995]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.25-19.48.10:727][995]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.25-19.48.10:732][995]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.25-19.48.10:732][995]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.25-19.48.10:749][995]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.25-19.48.10:767][995]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.25-19.48.10:775][995]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.25-19.48.10:775][995]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.25-19.48.10:775][995]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.25-19.48.10:775][995]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.25-19.48.10:782][995]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.25-19.48.10:782][995]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.25-19.48.10:782][995]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.25-19.48.10:883][995]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.25-19.48.10:986][995]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.25-19.48.10:986][995]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.25-19.48.10:994][995]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.25-19.48.10:994][995]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.25-19.48.10:994][995]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.25-19.48.10:994][995]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.25-19.48.11:010][995]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.25-19.48.11:021][995]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.25-19.48.11:034][995]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.25-19.48.11:035][995]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.25-19.48.11:035][995]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.25-19.48.11:046][995]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.25-19.48.11:046][995]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.25-19.48.11:057][995]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.25-19.48.11:057][995]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.25-19.48.11:057][995]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.25-19.48.11:064][995]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.25-19.48.11:070][995]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.25-19.48.11:070][995]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.25-19.48.11:076][995]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.25-19.48.11:082][995]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.25-19.48.11:082][995]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.25-19.48.11:082][995]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.25-19.48.11:131][995]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.25-19.48.11:131][995]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.25-19.48.11:131][995]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.25-19.48.11:131][995]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.25-19.48.11:141][995]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.25-19.48.11:144][995]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.25-19.48.11:144][995]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.25-19.48.11:164][995]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.25-19.48.11:170][995]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.25-19.48.11:188][995]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.25-19.48.11:188][995]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.25-19.48.11:195][995]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.25-19.48.11:203][995]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.25-19.48.11:239][995]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.25-19.48.11:246][995]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.25-19.48.11:259][995]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.25-19.48.11:259][995]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.25-19.48.11:260][995]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.25-19.48.11:304][995]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.25-19.48.11:304][995]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.25-19.48.11:309][995]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.25-19.48.11:324][995]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.25-19.48.11:325][995]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.25-19.48.11:331][995]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.25-19.48.11:341][995]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.25-19.48.11:341][995]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.25-19.48.11:356][995]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.25-19.48.11:359][995]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.25-19.48.11:360][995]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.25-19.48.11:375][995]LogDerivedDataCache: Shutdown
+[2019.01.25-19.48.11:375][995]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.25-19.48.11:375][995]LogXGEController: Cleaning working directory: C:/Users/elisa/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-19.48.11:375][995]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.25-19.48.11:376][995]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.25-19.48.11:420][995]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.25-19.48.11:426][995]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.25-19.48.11:430][995]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.25-19.48.11:430][995]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.25-19.48.11:442][995]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.25-19.48.11:442][995]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.25-19.48.11:442][995]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.25-19.48.11:448][995]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.25-19.48.11:449][995]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.25-19.48.11:465][995]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.25-19.48.11:465][995]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.25-19.48.11:465][995]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.25-19.48.11:465][995]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.25-19.48.11:465][995]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.25-19.48.11:479][995]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.25-19.48.11:479][995]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.25-19.48.11:481][995]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.25-19.48.11:481][995]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.25-19.48.11:507][995]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.25-19.48.11:516][995]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.25-19.48.11:516][995]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.25-19.48.11:516][995]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.25-19.48.11:516][995]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.25-19.48.11:516][995]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.25-19.48.11:516][995]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.25-19.48.11:531][995]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.25-19.48.11:549][995]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.25-19.48.11:570][995]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.25-19.48.11:570][995]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.25-19.48.11:570][995]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEF3C14B0-486D-7B38-6E3C-0AB1688DEC2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=7e6e201d4d95755287dff8837bb42e2a%7C99186de75ed1429d9695d1280c4477a0%7Ce8c78602-7334-4e62-b737-8ea27e436604&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.25-19.48.11:600][995]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.25-19.48.11:601][995]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.25-19.48.11:601][995]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.25-19.48.11:602][995]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.25-19.48.11:612][995]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.25-19.48.11:612][995]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.25-19.48.11:622][995]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.25-19.48.11:622][995]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.25-19.48.11:653][995]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.25-19.48.11:673][995]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.25-19.48.11:673][995]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.25-19.48.11:673][995]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.25-19.48.11:681][995]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.25-19.48.11:693][995]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.25-19.48.11:694][995]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.25-19.48.11:694][995]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.25-19.48.11:694][995]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.25-19.48.11:694][995]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.25-19.48.11:694][995]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.25-19.48.11:701][995]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.25-19.48.11:701][995]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.25-19.48.11:706][995]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.25-19.48.11:706][995]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.25-19.48.11:721][995]LogExit: Exiting.
+[2019.01.25-19.48.11:731][995]Log file closed, 01/25/19 19:48:11
