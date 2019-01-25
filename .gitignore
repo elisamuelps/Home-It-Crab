@@ -48,3 +48,12 @@
 *.rar
 
 Config/DefaultEngine\.ini
+BigChungus/Binaries/Win64/
+
+BigChungus/Intermediate/AssetRegistryCache/
+
+BigChungus/Intermediate/Build/
+
+BigChungus/Intermediate/
+
+BigChungus/Saved/
